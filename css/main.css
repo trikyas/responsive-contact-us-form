@@ -4,7 +4,7 @@
 body {
   background: #92bde7;
   color: #485e74;
-  line-height: 1.6;
+  line-height: 1.6em;
   font-family: sans-serif;
   padding: 1em;
 }
@@ -39,13 +39,12 @@ ul {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  box-shadow: inset -2px 2px 0 2px rgba(72,94,116,0.70);
+  box-shadow: inset -2px 2px 0 2px #485e74;
+  filter: drop-shadow(-3px 0 0 rgba(0,0,0,0.50));
   margin-left: 2em;
 }
 .wrapper {
-  box-shadow:
-  /*2px 2px 0 2px rgba(72,94,116,0.70),  */
-  0 0 20px 0 rgba(72,94,116,0.70);
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.70);
 }
 .wrapper > * {
   padding: 1em;
@@ -107,10 +106,21 @@ ul {
   color: #ffffff;
   outline: none;
 }
-
 .fa {
-  color: #ffffff;
   font-size: 1.4em;
+  color: #fff;
+  /*START gradient text*/
+  /*
+  background: linear-gradient(90deg, #485e74 50%, #ffffff 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  */
+  /*END gradient text*/
+  /*
+NOTE: if UNCOMMENTING 'START ~ END'
+      REMOVE ––> color: #fff;
+  */
+  filter: drop-shadow(1px 0 0 rgba(0,0,0,0.50));
 }
 li a {
   text-decoration: none;
