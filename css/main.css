@@ -27,6 +27,9 @@ ul {
   filter: drop-shadow( -1px 2px 0 rgba(72,94,116,0.70));
   border-bottom: 1px solid #ffffff;
 }
+.info {
+  background: linear-gradient(65deg, transparent 60%, #f9feff 60%);
+}
 .info .sm-img {
   background-image: url('../img/TWDLOGO.png');
   background-size: cover;
@@ -36,6 +39,7 @@ ul {
   height: 100px;
   border-radius: 50%;
   box-shadow: inset -2px 2px 0 2px rgba(72,94,116,0.70);
+  margin-left: 2em;
 }
 .wrapper {
   box-shadow:
@@ -84,6 +88,7 @@ ul {
 .contact form .button {
   background: #c9e6ff;
   border: 0;
+  color: #485e74;
   text-transform: uppercase;
   transition: background .25s ease-in-out;
 }
@@ -94,6 +99,18 @@ ul {
   background: #92bde7;
   color: #ffffff;
   outline: none;
+}
+.fa {
+  color: #ffffff;
+  font-size: 1.4em;
+}
+li a {
+  text-decoration: none;
+  color: #485e74;
+}
+li a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 @media screen and (min-width: 900px) {
   .wrapper {
