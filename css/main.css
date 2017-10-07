@@ -22,7 +22,8 @@ ul {
   text-align: center;
   margin-top: 0;
 }
-.logo span, .info h3 span {
+.logo span,
+.info h3 span {
   color: #ffffff;
   filter: drop-shadow( -1px 2px 0 rgba(72,94,116,0.70));
   border-bottom: 1px solid #ffffff;
@@ -52,7 +53,8 @@ ul {
 .company {
   background: #c9e6ff;
 }
-.company h3, .company ul {
+.company h3,
+.company ul {
   text-align: center;
   margin: 0 0 1em 0;
 }
@@ -85,6 +87,7 @@ ul {
 .contact form input:focus {
   outline: none;
 }
+.contact form textarea,
 .contact form textarea:focus {
   color: #485e74;
 }
@@ -127,7 +130,9 @@ li a:hover {
   .logo {
     margin-left: 1em;
   }
-  .company h3, .company ul, .logo {
+  .company h3,
+  .company ul,
+  .logo {
     text-align: left;
   }
 }
