@@ -90,6 +90,7 @@ ul {
 .contact form textarea,
 .contact form textarea:focus {
   color: #485e74;
+  outline: none;
 }
 .contact form .button {
   background: #c9e6ff;
