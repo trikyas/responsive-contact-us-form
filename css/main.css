@@ -85,6 +85,9 @@ ul {
 .contact form input:focus {
   outline: none;
 }
+.contact form textarea:focus {
+  color: #485e74;
+}
 .contact form .button {
   background: #c9e6ff;
   border: 0;
@@ -95,11 +98,12 @@ ul {
 .contact form .button:focus {
   outline: none;
 }
-.contact form .button:hover, .contact form textarea:focus {
+.contact form .button:hover {
   background: #92bde7;
   color: #ffffff;
   outline: none;
 }
+
 .fa {
   color: #ffffff;
   font-size: 1.4em;
